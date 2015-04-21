@@ -1,0 +1,4 @@
+MainPackage=C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Release\DartBuddyReal.Windows_1.1.0.4_Bundle\DartBuddyReal.Windows_1.1.0.4_AnyCPU.appx
+SymbolPackage=C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\AppPackages\DartBuddyReal.Windows_1.1.0.4_Test\DartBuddyReal.Windows_1.1.0.4_AnyCPU.appxsym
+ResourcePack=C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Release\DartBuddyReal.Windows_1.1.0.4_Bundle\DartBuddyReal.Windows_1.1.0.4_scale-140.appx
+ResourcePack=C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Release\DartBuddyReal.Windows_1.1.0.4_Bundle\DartBuddyReal.Windows_1.1.0.4_scale-180.appx

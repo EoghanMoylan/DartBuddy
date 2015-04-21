@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="DartBuddyReal.Players"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DartBuddyReal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+	<Page.TopAppBar>
+		<AppBar>
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+				<StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+					<Button x:ConnectionId='1' Content="Game"                             HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-38" />
+					<Button x:ConnectionId='2' Content="How To Play/Rule"                                   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-38"/>
+					<Button Content="About" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-38"/>
+				</StackPanel>
+			</Grid>
+		</AppBar>
+	</Page.TopAppBar>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"/>
+</Page>
+

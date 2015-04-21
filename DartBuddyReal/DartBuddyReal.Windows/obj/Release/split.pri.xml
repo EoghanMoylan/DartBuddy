@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="19286RethnateKhan.DartBuddyCalculator" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>100</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="About.xbf" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/About.xbf">
+				<Candidate type="Path">
+					<Value>About.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DartBuddyReal.Windows.xr.xml" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/DartBuddyReal.Windows.xr.xml">
+				<Candidate type="Path">
+					<Value>DartBuddyReal.Windows.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HowToPlay.xbf" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/HowToPlay.xbf">
+				<Candidate type="Path">
+					<Value>HowToPlay.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Players.xbf" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Players.xbf">
+				<Candidate type="Path">
+					<Value>Players.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/BadgeLogo.png"/>
+				<NamedResource name="Dart 2.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/Dart%202.png">
+					<Candidate type="Path">
+						<Value>Assets\Dart 2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Dart Board.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/Dart%20Board.png">
+					<Candidate type="Path">
+						<Value>Assets\Dart Board.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Dart1.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/Dart1.png">
+					<Candidate type="Path">
+						<Value>Assets\Dart1.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Dart3.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/Dart3.png">
+					<Candidate type="Path">
+						<Value>Assets\Dart3.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DartBuddy Menu.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/DartBuddy%20Menu.png">
+					<Candidate type="Path">
+						<Value>Assets\DartBuddy Menu.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square30x30Logo.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/Square30x30Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Square30x30Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ZeroHitMarker.png" uri="ms-resource://19286RethnateKhan.DartBuddyCalculator/Files/Assets/ZeroHitMarker.png">
+					<Candidate type="Path">
+						<Value>Assets\ZeroHitMarker.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

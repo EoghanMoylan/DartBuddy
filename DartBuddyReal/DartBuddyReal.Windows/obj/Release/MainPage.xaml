@@ -1,0 +1,146 @@
+﻿<Page
+    x:Class="DartBuddyReal.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DartBuddyReal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+	<Page.TopAppBar>
+		<AppBar>
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+				<StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+					<Button x:ConnectionId='1'                               Content="Players" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-38" Width="100" />
+					<Button x:ConnectionId='2'                                  Content="How To Play/Rule"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-38" Width="152"/>
+					<Button x:ConnectionId='3' Content="About"                              HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-38"/>
+				</StackPanel>
+			</Grid>
+		</AppBar>
+	</Page.TopAppBar>
+
+    <Grid ManipulationMode="All">
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/DartBuddy Menu.png" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+
+
+        <TextBlock x:ConnectionId='4' x:Name="txtPlayerOne" HorizontalAlignment="Left" Height="75" Margin="40,75,0,0" TextWrapping="Wrap" Text="Player One" VerticalAlignment="Top" Width="202"                                                  FontFamily="Dense" TextAlignment="Center" FontSize="72"/>
+        <TextBlock x:Name="txtPlayerTwo" HorizontalAlignment="Left" Height="75" Margin="1102,75,0,0" TextWrapping="Wrap" Text="Player Two" VerticalAlignment="Top" Width="223" FontFamily="Dense" FontSize="72" TextAlignment="Center"/>
+        <ScrollViewer Margin="164,30,337,-82" VerticalScrollMode="Disabled" HorizontalScrollMode="Disabled" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
+        	<Grid>
+        		<Image Stretch="UniformToFill" Source="Assets/Dart Board.png"  HorizontalAlignment="Left" Height="700" Margin="0,120,0,0" VerticalAlignment="Top" Width="865"/>
+        		<Grid x:Name="GridDoubles" Margin="336,247,155,199" Opacity="0">
+        			<Path x:ConnectionId='49' x:Name="TwentyDouble"                              Data="M692.537,277.612 L713.433,279.104 L707.463,307.463 L662.687,307.463 L659.701,279.104" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="30.851" Margin="159.701,0,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="54.732"/>
+        			<Path x:ConnectionId='50' x:Name="OneDouble"                           Data="M762.687,325.373 L711.94,307.463 L716.418,279.105 L773.134,294.031" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="47.269" Margin="211.94,1.492,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="62.194"/>
+        			<Path x:ConnectionId='51' x:Name="EighteenDouble"                                Data="M816.418,332.836 L798.507,353.731 L759.701,325.373 L773.134,300" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="54.731" Margin="259.701,22.388,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="57.717"/>
+        			<Path x:ConnectionId='52' x:Name="FourDouble"                            Data="M855.224,379.104 L829.851,392.537 L800,353.731 L817.91,332.836" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="60.701" Margin="300,55.224,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="56.224"/>
+        			<Path x:ConnectionId='53' x:Name="ThirteenDouble"                                Data="M843.284,440.298 L871.642,438.806 L855.224,382.089 L829.851,394.029" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="59.208" Margin="329.851,104.478,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="42.791"/>
+        			<Path x:ConnectionId='54' x:Name="SixDouble"                           Data="M871.642,494.03 L843.284,492.537 L844.776,443.283 L873.134,440.297" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="54.731" Margin="343.284,162.687,-0.134,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="30.85"/>
+        			<Path x:ConnectionId='55' x:Name="TenDouble"                           Data="M855.224,547.761 L829.851,537.313 L843.284,489.552 L873.134,497.015" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="59.209" Margin="329.851,211.94,-0.134,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="44.283"/>
+        			<Path x:ConnectionId='56' x:Name="FifteenDouble"                               Data="M800,577.612 L820.896,597.015 L853.731,549.254 L828.358,535.821" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="62.194" Margin="300,258.209,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="54.731"/>
+        			<Path x:ConnectionId='57' x:Name="TwoDouble"                           Data="M761.194,605.97 L771.642,629.851 L817.911,598.507 L797.016,576.119" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="54.732" Margin="261.194,298.507,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="57.716"/>
+        			<Path x:ConnectionId='58' x:Name="SeventeenDouble"                                 Data="M710.448,622.388 L716.418,647.761 L773.135,631.343 L758.21,607.463" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="41.298" Margin="210.448,329.851,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="63.686"/>
+        			<Path x:ConnectionId='59' x:Name="ThreeDouble"                             Data="M662.687,623.881 L658.209,650.746 L713.433,647.761 L710.448,623.881" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="27.865" Margin="158.209,346.269,0,-0.134" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="56.224"/>
+        			<Path x:ConnectionId='60' x:Name="NineteenDouble"                                Data="M614.925,605.97 L658.209,625.373 L655.224,650.746 L598.507,631.343" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="45.776" Margin="98.507,328.358,0,-0.134" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="60.702"/>
+        			<Path x:ConnectionId='61' x:Name="SevenDouble"                             Data="M558.209,595.522 L574.627,579.104 L611.94,605.97 L598.508,632.836" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="54.732" Margin="58.209,301.492,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="54.731"/>
+        			<Path x:ConnectionId='62' x:Name="SixteenDouble"                               Data="M544.776,537.313 L571.642,576.119 L550.746,594.03 L516.418,549.254" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="57.717" Margin="16.418,259.701,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="56.224"/>
+        			<Path x:ConnectionId='63' x:Name="EightDouble"                             Data="M502.985,495.522 L526.866,491.045 L543.284,535.821 L517.91,547.761" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="57.716" Margin="2.985,213.433,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="41.299"/>
+        			<Path x:ConnectionId='64' x:Name="ElevenDouble"                              Data="M502.985,435.821 L529.851,438.806 L528.358,489.552 L500,492.537" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="57.716" Margin="0,158.209,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="30.851"/>
+        			<Path x:ConnectionId='65' x:Name="FourteenDouble"                                Data="M517.91,377.612 L544.776,392.537 L529.851,437.313 L500,432.836" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="60.701" Margin="0,100,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="45.776"/>
+        			<Path x:ConnectionId='66' x:Name="NineDouble"                            Data="M553.731,328.358 L573.134,349.254 L544.776,391.045 L520.896,380.597" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="63.687" Margin="20.896,50.746,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="53.238"/>
+        			<Path x:ConnectionId='67' x:Name="TweleveDouble"                               Data="M601.493,295.522 L613.433,323.881 L574.627,349.254 L556.716,328.358" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="54.732" Margin="56.716,17.91,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="57.717"/>
+        			<Path x:ConnectionId='68' x:Name="FiveDouble"                            Data="M655.224,280.597 L659.701,304.478 L613.433,319.403 L602.985,295.522" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="39.806" Margin="102.985,2.985,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="57.716"/>
+
+        		</Grid>
+        		<Grid x:Name="GridSingles" Margin="27,0,187,232" Opacity="0">
+        			<Path x:ConnectionId='29' x:Name="TwentySingle"                              Data="M9.455,87.067 L30.351,87.067 L22.888,110.948 L13.933,109.455 z M0.5,0.5 L39.306,0.5 L33.336,54.232 L4.97803,51.247 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="111.448" Margin="476.119,278.492,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="39.806"/>
+        			<Path x:ConnectionId='30' x:Name="OneSingle"                           Data="M9.455,87.067 L30.351,94.53 L13.933,118.41 L0.5,115.425 z M21.395,0.5 L66.171,19.9031 L42.291,64.679 L10.948,55.7235 z" Fill="White" HorizontalAlignment="Left" Height="118.91" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="66.671" Margin="498.508,278.492,0,0"/>
+        			<Path x:ConnectionId='31' x:Name="EighteenSingle"                                Data="M13.933,75.127 L25.873,87.067 L9.45502,106.47 L0.5,97.515 z M51.246,0.5 L85.574,25.873 L49.753,64.679 L27.365,45.276 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="106.97" Margin="516.418,296.403,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="86.074"/>
+        			<Path x:ConnectionId='32' x:Name="FourSingle"                            Data="M21.396,61.694 L34.829,76.6189 L12.441,88.56 L0.5,78.112 z M84.082,0.5 L112.441,37.813 L61.694,63.186 L42.291,37.813 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="89.06" Margin="523.88,324.761,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="112.941"/>
+        			<Path x:ConnectionId='33' x:Name="ThirteenSingle"                                Data="M24.381,42.291 L30.351,57.217 L4.97803,63.187 L0.5,54.232 z M100.5,0.5 L115.426,48.2612 L63.1878,54.232 L54.232,28.8589 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="63.687" Margin="534.328,362.074,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="115.926"/>
+        			<Path x:ConnectionId='34' x:Name="TenSingle"                           Data="M58.709,12.44 L112.44,21.3949 L103.485,63.186 L49.753,37.8129 z M3.48499,0.5 L27.365,4.97699 L24.38,21.395 L0.5,12.44 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="63.686" Margin="535.821,441.179,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="112.94"/>
+        			<Path x:ConnectionId='35' x:Name="sixSingle"                           Data="M25.873,12.44 L27.366,30.351 L0.5,24.381 L0.5,13.9331 z M113.933,0.5 L113.933,45.276 L55.724,36.321 L55.724,6.47 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="45.776" Margin="537.313,414.313,-0.746,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="114.433"/>
+        			<Path x:ConnectionId='36' x:Name="FifteenSingle"                               Data="M61.694,25.873 L107.963,51.246 L79.604,88.559 L43.783,48.261 z M9.45497,0.5 L30.351,15.425 L19.903,28.858 L0.5,10.947 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="89.059" Margin="525.373,454.612,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="108.463"/>
+        			<Path x:ConnectionId='37' x:Name="TwoSingle"                           Data="M48.261,43.784 L81.097,82.589 L51.246,106.47 L27.365,61.694 z M10.948,0.5 L24.38,18.4106 L10.948,27.366 L0.5,6.47019 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="106.97" Margin="519.403,466.552,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="81.597"/>
+        			<Path x:ConnectionId='38' x:Name="SeventeenSingle"                                 Data="M33.336,51.246 L58.709,94.53 L16.9179,112.44 L7.96298,60.202 z M9.45495,0.5 L19.903,19.903 L1.992,22.888 L0.5,3.48499 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="112.94" Margin="505.97,475.507,0,-0.447" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="59.209"/>
+        			<Path x:ConnectionId='39' x:Name="ThreeSingle"                             Data="M9.45501,58.709 L36.321,61.694 L43.783,107.962 L0.5,110.947 z M16.918,0.5 L28.858,1.99197 L31.843,24.38 L13.932,27.365 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="111.447" Margin="474.627,477,0,-0.447" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="44.283"/>
+        			<Path x:ConnectionId='40' x:Name="NineteenSingle"                                Data="M25.874,55.724 L55.724,63.187 L46.769,113.933 L0.5,101.993 z M51.247,0.5 L63.187,7.963 L58.709,28.858 L39.306,22.888 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="114.433" Margin="423.88,472.522,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="63.687"/>
+        			<Path x:ConnectionId='41' x:Name="SevenSingle"                             Data="M39.306,39.306 L60.201,57.217 L36.321,103.486 L0.5,79.605 z M81.097,0.5 L84.082,6.471 L73.6339,24.381 L61.694,15.426 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="103.986" Margin="386.567,468.044,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="84.582"/>
+        			<Path x:ConnectionId='42' x:Name="SixteenSingle"                               Data="M45.276,21.396 L64.679,46.769 L22.888,87.067 L0.5,45.276 z M99.0069,0.5 L104.977,6.47 L84.0819,22.888 L75.1269,6.47 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="87.567" Margin="358.209,459.089,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="105.477"/>
+        			<Path x:ConnectionId='43' x:Name="EightSingle"                             Data="M51.246,12.44 L60.201,36.321 L12.44,60.201 L0.5,22.888 z M112.44,0.5 L113.933,12.44 L93.037,22.888 L85.574,6.47 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="60.701" Margin="341.791,441.179,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="114.433"/>
+        			<Path x:ConnectionId='44' x:Name="ElevenSingle"                              Data="M85.575,10.947 L112.441,13.932 L113.933,27.365 L82.5899,33.335 z M3.48504,0.5 L52.739,9.45502 L51.247,33.335 L0.5,43.783 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="44.283" Margin="340.298,412.821,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="114.433"/>
+        			<Path x:ConnectionId='45' x:Name="FourteenSingle"                                Data="M90.053,34.828 L110.948,51.246 L107.963,57.216 L84.082,48.261 z M13.933,0.5 L58.709,27.366 L51.247,48.261 L0.5,33.336 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="57.716" Margin="343.283,366.552,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="111.448"/>
+        			<Path x:ConnectionId='46' x:Name="NineSingle"                            Data="M91.545,63.187 L109.455,82.59 L101.993,93.038 L78.112,75.127 z M28.858,0.5 L64.679,43.784 L48.261,67.664 L0.5,39.306 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="93.538" Margin="356.716,320.283,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="109.955"/>
+        			<Path x:ConnectionId='47' x:Name="TwelveSingle"                              Data="M73.634,72.141 L84.082,100.5 L76.619,100.5 L58.709,84.082 z M36.321,0.5 L57.216,48.261 L36.321,61.694 L0.5,19.903 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="101" Margin="389.552,296.403,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="84.582"/>
+        			<Path x:ConnectionId='48' x:Name="FiveSingle"                            Data="M54.2317,84.082 L60.202,107.963 L48.2614,113.933 L37.813,90.053 z M40.798,0.5 L49.754,51.247 L21.395,60.202 L0.5,13.933 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="114.433" Margin="428.358,281.477,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="60.702"/>
+
+        		</Grid>
+        		<Grid x:Name="GridTriples" Margin="424,336,244,286" Opacity="0">
+        			<Path x:ConnectionId='9' x:Name="TweleveTriple"                               Data="M640,377.5 L619.5,390.5 L635.5,410.5 L650.5,399" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="34" Margin="31.5,11.5,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="32"/>
+        			<Path x:ConnectionId='10' x:Name="FiveTriple"                            Data="M669,367.5 L645.5,373 L655,398 L673.5,394" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31.5" Margin="57.5,1.5,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="29"/>
+        			<Path x:ConnectionId='11' x:Name="TwentyTriple"                              Data="M674,366.5 L701,366 L696.5,391.5 L677,391.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="26.5" Margin="86,0,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="28"/>
+        			<Path x:ConnectionId='12' x:Name="OneTriple"                           Data="M703.5,366.5 L698.5,394 L717.5,401 L730,375.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35.5" Margin="110.5,0.5,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="32.5"/>
+        			<Path x:ConnectionId='13' x:Name="EighteenTriple"                                Data="M734,378 L722.5,401 L736.5,411.5 L755,393" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="34.5" Margin="134.5,12,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="33.5"/>
+        			<Path x:ConnectionId='14' x:Name="FourTriple"                            Data="M759,397 L740.5,413 L751,430.5 L774.5,419" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="34.5" Margin="152.5,31,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="35"/>
+        			<Path x:ConnectionId='15' x:Name="ThirteenTriple"                                Data="M776,422 L784,448 L758,452.5 L754,434" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31.5" Margin="166,56,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="31"/>
+        			<Path x:ConnectionId='16' x:Name="SixTriple"                           Data="M782.5,453.5 L781.5,477 L759,473.5 L758.5,457" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="24.5" Margin="170.5,87.5,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="25"/>
+        			<Path x:ConnectionId='17' x:Name="TenTriple"                           Data="M758.5,479 L752,496.5 L776,508 L784,482.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="30" Margin="164,113,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="33"/>
+        			<Path x:ConnectionId='18' x:Name="FifteenTriple"                               Data="M751,501 L740.5,514.5 L757.5,531.5 L773.5,512.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31.5" Margin="152.5,135,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="34"/>
+        			<Path x:ConnectionId='19' x:Name="TwoTriple"                           Data="M737,517 L721,528.5 L733,551.5 L755,536" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35.5" Margin="133,151,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="35"/>
+        			<Path x:ConnectionId='20' x:Name="SeventeenTriple"                                 Data="M718,530 L730,554 L704,562.5 L699.5,536.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="33.5" Margin="111.5,164,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="31.5"/>
+        			<Path x:ConnectionId='21' x:Name="ThreeTriple"                             Data="M677.5,538 L695,537 L701,563.5 L672,563.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="27.5" Margin="84,171,0,-0.5" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="30"/>
+        			<Path x:ConnectionId='22' x:Name="NineteenTriple"                                Data="M654.5,531.5 L672,536.5 L670,563 L642,555.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="32.5" Margin="54,165.5,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="31"/>
+        			<Path x:ConnectionId='23' x:Name="SevenTriple"                             Data="M637,516.5 L618,536.5 L639.5,553.5 L651,529.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="38" Margin="30,150.5,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="34"/>
+        			<Path x:ConnectionId='24' x:Name="SixteenTriple"                               Data="M622,499.5 L633.5,515.5 L615,534 L598.5,511" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="35.5" Margin="10.5,133.5,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="36"/>
+        			<Path x:ConnectionId='25' x:Name="EightTriple"                             Data="M615,479 L620.5,496.5 L597,508.5 L588.5,482.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="30.5" Margin="0.5,113,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="33"/>
+        			<Path x:ConnectionId='26' x:Name="ElevenTriple"                              Data="M588.5,452 L589,474 L613,475.5 L614,457" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="24.5" Margin="0.5,86,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="26.5"/>
+        			<Path x:ConnectionId='27' x:Name="FourteenTriple"                                Data="M598,421 L588,446 L616,451 L620,434.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Margin="0,55,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="33"/>
+        			<Path x:ConnectionId='28' x:Name="NineTriple"                            Data="M615.5,394.5 L598.5,419 L623,430.5 L633,414" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="37" Margin="10.5,28.5,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="35.5"/>
+
+        		</Grid>
+        		<Grid x:Name="GridSpecials" Margin="480,392,300,342" Opacity="0">
+
+        			<Path x:ConnectionId='7' x:Name="TheTwentyFive"                               Data="M40,26.5 L33,30.5 L29,35 L27,41 L28.5,48.5 L31.5,54 L37,58.5 L45.5,58.5 L53,54.5 L56,47 L57,39 L54,31.5 L46.5,27 z M49,0.5 L64.5,6.5 L70.5,12 L80,23 L83.5,34.5 L84,48 L81.5,60.5 L74,71 L68,78 L61,81.5 L50.5,85 L40.5,85.5 L30.5,83.5 L21,80 L16,76.5 L10.5,71.5 L6.5,66 L3.5,60.5 L1.5,52 L0.5,43.5 L0.5,36 L3,28.5 L6.5,22 L10,16 L13.5,11 L20,7 L28,5 L37.5,1 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="86" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="84.5"/>
+        			<Path x:ConnectionId='8' x:Name="Bullseye"                          Data="M687.5,453 L683.5,453 L678.5,455.5 L675.5,460.5 L674.5,467.5 L677.5,473.5 L681.5,476.5 L686.5,478 L692.5,476.5 L696.5,472.5 L699,467 L699,461 L695.5,456 L691,452.5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="26.5" Margin="30,30.5,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="25.5"/>
+
+        		</Grid>
+        	</Grid>
+        </ScrollViewer>
+        <Ellipse x:Name="PlayerOneIndicator" Fill="#FFFF0202" HorizontalAlignment="Left" Height="20" Margin="40,150,0,0" Stroke="Black" VerticalAlignment="Top" Width="31"/>
+        <Ellipse x:Name="PlayerTwoIndicator" Fill="#FFFF0202" HorizontalAlignment="Left" Height="20" Margin="1120,150,0,0" Stroke="Black" VerticalAlignment="Top" Width="31"/>
+        <Viewbox x:Name="Dart1View" Margin="588,704,753,39" Width="25" Height="25">
+        	<Image x:Name="Dart1" Source="Assets/Dart1.png" Stretch="Fill" Height="25" Width="25"/>
+        </Viewbox>
+        <Viewbox x:Name="Dart2View" Margin="674,704,667,39" Width="25" Height="25">
+        	<Image x:Name="Dart2" Source="Assets/Dart 2.png" Stretch="Fill" Height="25" Width="25"/>
+        </Viewbox>
+        <Viewbox x:Name="Dart3View" Margin="760,704,581,39" Width="25" Height="25">
+        	<Image x:Name="Dart3" Source="Assets/Dart3.png" Stretch="Fill" Height="25" Width="25"/>
+
+        </Viewbox>
+        <TextBlock x:Name="txtThisRoundCurrScore" HorizontalAlignment="Left" Height="32" Margin="560,200,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="254" FontSize="32" TextAlignment="Center" RenderTransformOrigin="0.512,1.28"/>
+        <TextBlock x:Name="txtPlayerOneSetScore" HorizontalAlignment="Left" Height="117" Margin="287,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" TextAlignment="Center" FontSize="96" Text="0"/>
+        <TextBlock x:Name="txtPlayerTwoSetScore" HorizontalAlignment="Left" Height="117" Margin="933,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" TextAlignment="Center" FontSize="96" Text="0"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="238" Margin="287,186,0,0" VerticalAlignment="Top" Width="164" >
+        	<TextBlock x:Name="txtPlayerOneListOfFinshes" TextWrapping="Wrap" FontSize="21.333" Foreground="White" Width="164"/>
+        </ScrollViewer>
+        <ToggleSwitch x:ConnectionId='5' x:Name="swGameMode" Header="Game Mode 501/301" HorizontalAlignment="Left" Margin="1171,8,0,0" VerticalAlignment="Top"                              OffContent="501" OnContent="301"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="238" Margin="915,192,0,0" VerticalAlignment="Top" Width="164" >
+        	<TextBlock x:Name="txtPlayerTwoListOfFinshes" TextWrapping="Wrap" FontSize="21.333" Foreground="White" TextAlignment="Right" Width="164"/>
+        
+        </ScrollViewer>
+        <Image Margin="287,496,865,74" Source="Assets/ZeroHitMarker.png" Stretch="Fill"/>
+        <ScrollViewer Margin="40,176,1124,74">
+        	<TextBlock x:Name="txtPlayerOneScore" TextWrapping="Wrap" Text="501" FontFamily="Segoe Print" FontSize="29.333" TextAlignment="Center" Width="202"/>
+        </ScrollViewer>
+        <ScrollViewer Margin="1139,192,41,74">
+        	<TextBlock x:Name="txtPlayerTwoScore" TextWrapping="Wrap" Text="501" FontFamily="Segoe Print" FontSize="29.333" TextAlignment="Center" Width="186"/>
+        </ScrollViewer>
+        <Path x:ConnectionId='6' x:Name="zeroHit"                         Data="M364,568 L428,570 L430,638 L370,634" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="91.5" Margin="337.5,559.5,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="113.5" Opacity="0"/>
+    </Grid>
+</Page>
+

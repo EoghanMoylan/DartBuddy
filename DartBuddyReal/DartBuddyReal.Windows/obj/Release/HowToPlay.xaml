@@ -1,0 +1,76 @@
+﻿<Page
+    x:Class="DartBuddyReal.HowToPlay"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DartBuddyReal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+	<Page.TopAppBar>
+		<AppBar>
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="0*"/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+				<StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+					<Button x:ConnectionId='1' Content="Game"                             HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-38" />
+					<Button x:ConnectionId='2'                               Content="Players" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-38"/>
+					<Button x:ConnectionId='3' Content="About"                               HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-38"/>
+				</StackPanel>
+			</Grid>
+		</AppBar>
+	</Page.TopAppBar>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="txtHowToTitle" Height="60" TextWrapping="Wrap" Text="How To Play" Width="267" FontSize="48" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="349,168,750,540"/>
+        <ScrollViewer Margin="349,258,750,108" >
+        	<TextBlock x:Name="txtHowToPlay" TextWrapping="Wrap" FontSize="13.333">
+        		<Run FontSize="16" Text="Basics:"/>
+        		<LineBreak/>
+        		<Run Text="Click on the section of the board where your dart hit. On top of the board you will see a number that changes each time you hit the board. This is your current score and after 3 darts it will be subtracted from your overall score."/>
+        		<LineBreak/>
+        		<Run Text="Your overall score is shown on the chalk board on either the left or right hand side of the board (depending on which player you are)."/>
+        		<LineBreak/>
+        		<Run Text="If your dart misses the board click on the "/>
+        		<Run Text="miss button on the lower left of the screen"/>
+        		<Run Text=". This will count as zero."/>
+        		<LineBreak/>
+        		<Run Text="When you reach an overall score that you can  finish on you will see the list of possible finishes beside your chalk board."/>
+        		<LineBreak/>
+        		<Run Text="After a round has been won by a player there leg score will increase. This can be seen on either side of the dart buddy logo. After either player has one the set number of legs the game will be over. For Dart Buddy, this is always 6"/>
+        		<LineBreak/>
+        		<Run FontSize="16" Text="Switching Game Modes:"/>
+        		<LineBreak/>
+        		<Run FontSize="13.333" Text="If you want  to switch between a game of 301 or 501 just flick the switch located on the top right of the screen."/>
+        	</TextBlock>
+        </ScrollViewer>
+        <TextBlock x:Name="txtAboutTitle" TextWrapping="Wrap" Text="Rules" FontSize="48" TextAlignment="Center" Margin="643,168,453,540"/>
+        <ScrollViewer Margin="643,258,453,108">
+        	<TextBlock x:Name="txtRules" TextWrapping="Wrap" FontSize="13.333">
+        		<Run FontSize="16" Text="Rules of Darts:"/>
+        		<LineBreak/>
+        		<Run Text=""/>
+        		<LineBreak/>
+        		<Run Text="Every Professional Darts Corporation tournament is operated under the rules laid down by the Darts Regulation Authority."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="In a game of 501 the object is for one player or a team to be the first to reach zero from starting total of 501. The game of 301 follows the same rules, except starting from 301."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="In simple terms, after three darts are thrown, the throwing player subtracts the total scored from his current total until he reaches zero."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="In order to reach zero each player must finish by throwing a double i.e. if player one has 36 remaining he must hit double 18 to win, while if player two has 45 remaining he must hit single 5, double 20 to win - or a another combination of scores provided the final dart scores on a double."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Some versions of the game require a 'double start' whereby players must begin the game with a double as well as 'checking out' on a double. The World Grand Prix uses the 'double in, double out' rule."/>
+        	</TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Page>
+

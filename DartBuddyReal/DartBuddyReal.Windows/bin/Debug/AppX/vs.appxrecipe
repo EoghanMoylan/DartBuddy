@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EOGHANSLAPTOP</Machine>
+    <WindowsUser>eoghan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>7f8d4032-46cf-406e-9348-a413aaa1b51b</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>AE78CF955FB059F3C999BC1947F418949A6C8413B4B623B544E939F12CA3A2B1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7f8d4032-46cf-406e-9348-a413aaa1b51b_1.0.0.0_neutral__znk1zhsv7n4kr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7f8d4032-46cf-406e-9348-a413aaa1b51b_znk1zhsv7n4kr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7f8d4032-46cf-406e-9348-a413aaa1b51b</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=eoghan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-07T18:54:47.947</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Debug\DartBuddyReal.Windows.exe">
+      <PackagePath>DartBuddyReal.Windows.exe</PackagePath>
+      <Modified>2015-04-12T14:08:11.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\Assets\Dart 2.png">
+      <PackagePath>Assets\Dart 2.png</PackagePath>
+      <Modified>2015-03-12T13:41:13.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\Assets\Dart Board.png">
+      <PackagePath>Assets\Dart Board.png</PackagePath>
+      <Modified>2015-02-10T02:48:44.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\Assets\Dart1.png">
+      <PackagePath>Assets\Dart1.png</PackagePath>
+      <Modified>2015-03-12T13:41:13.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\Assets\Dart3.png">
+      <PackagePath>Assets\Dart3.png</PackagePath>
+      <Modified>2015-03-12T13:41:13.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\Assets\DartBuddy Menu.png">
+      <PackagePath>Assets\DartBuddy Menu.png</PackagePath>
+      <Modified>2015-02-10T04:54:17.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-10T05:05:05.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\Assets\ZeroHitMarker.png">
+      <PackagePath>Assets\ZeroHitMarker.png</PackagePath>
+      <Modified>2015-04-07T18:50:58.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-03-28T15:29:53.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Debug\HowToPlay.xbf">
+      <PackagePath>HowToPlay.xbf</PackagePath>
+      <Modified>2015-04-12T14:01:09.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-04-12T14:08:10.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Debug\Players.xbf">
+      <PackagePath>Players.xbf</PackagePath>
+      <Modified>2015-04-12T14:01:09.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Debug\DartBuddyReal.Windows.xr.xml">
+      <PackagePath>DartBuddyReal.Windows.xr.xml</PackagePath>
+      <Modified>2015-04-12T14:01:09.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\eoghan\Desktop\DartBuddyReal\DartBuddyReal\DartBuddyReal.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-07T18:54:47.125</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
